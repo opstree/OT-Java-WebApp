@@ -1,6 +1,6 @@
 node {
   stage('SCM CheckOut') {
-git 'https://github.com/yugan6669/maven-web-application.git'
+git 'https://github.com/UganderD/TestJavaApp.git'
     
 
 }
