@@ -53,12 +53,3 @@ mvn deploy
 
 There is some other cool stuff as well but I leave that up to you to explore it.
 
-#### Dockerized Setup
-
-Dockerized setup is much classier than manual setup. To achieve this you just have to do this:-
-
-```shell
-docker build -t opstree/spring3hibernate:latest -f Dockerfile .
-```
-
-That's it. It will create Tomcat Image having the war itself. Now just go and deploy the docker image anywhere you want.
